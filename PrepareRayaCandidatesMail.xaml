@@ -244,7 +244,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </rba:AppendBulletList>
-                  <ui:SortDataTable ColumnIndex="{x:Null}" DataColumn="{x:Null}" OutputDataTable="{x:Null}" ColumnName="Candidate Score" DisplayName="Sort Data Table qualified candidates" sap:VirtualizedContainerService.HintSize="434,80" sap2010:WorkflowViewState.IdRef="SortDataTable_1" Order="Decending" SortOrder="Descending">
+                  <ui:SortDataTable ColumnIndex="{x:Null}" DataColumn="{x:Null}" OutputDataTable="{x:Null}" ColumnName="Candidate Score (%)" DisplayName="Sort Data Table qualified candidates" sap:VirtualizedContainerService.HintSize="434,80" sap2010:WorkflowViewState.IdRef="SortDataTable_1" Order="Decending" SortOrder="Descending">
                     <ui:SortDataTable.DataTable>
                       <InArgument x:TypeArguments="sd:DataTable">
                         <CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_34">in_dt_QualifiedCandidates</CSharpValue>
