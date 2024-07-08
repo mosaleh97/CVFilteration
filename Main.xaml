@@ -239,7 +239,7 @@
                     <If DisplayName="If Mail subject contains cv filteration" sap:VirtualizedContainerService.HintSize="410,475" sap2010:WorkflowViewState.IdRef="If_1">
                       <If.Condition>
                         <InArgument x:TypeArguments="x:Boolean">
-                          <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_35">CurrentMail.Subject.ToLower().Contains("cv filteration")</CSharpValue>
+                          <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_48">CurrentMail.Subject.ToLower().Contains("cv filtration")</CSharpValue>
                         </InArgument>
                       </If.Condition>
                       <If.Then>
